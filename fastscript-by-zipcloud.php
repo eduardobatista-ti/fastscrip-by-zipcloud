@@ -9,7 +9,7 @@ Author: <a href=https://zipcloud.com.br>ZipCloud</a>
 // Inclui os arquivos do plugin
 include_once(plugin_dir_path(__FILE__) . '/includes/admin-page.php');
 include_once(plugin_dir_path(__FILE__) . '/includes/settings-fields.php');
-include_once(plugin_dir_path(__FILE__) . '/ncludes/update-script.php');
+include_once(plugin_dir_path(__FILE__) . '/includes/update-script.php');
 
 // Adiciona a página de configurações do plugin ao menu do painel do WordPress
 add_action('admin_menu', 'fastscrip_by_zipcloud_menu');
