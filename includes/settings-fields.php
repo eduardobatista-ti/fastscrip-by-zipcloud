@@ -2,7 +2,7 @@
 // Campos de configuração do plugin
 function fastscrip_by_zipcloud_settings() {
     register_setting(
-        'fastscrip_by_zipcloud_settings_group',
+        'fastscrip_by_zipcloud_settings_group', // Corrigido: Nome do grupo de configurações
         'fastscrip_by_zipcloud_settings',
         'fastscrip_by_zipcloud_settings_validate'
     );
